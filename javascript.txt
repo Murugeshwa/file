@@ -1,0 +1,70 @@
+javascript basic concepts:
+              -->scripts(programs)
+   creating dynamic webcontent
+   interpreted language
+
+   engines names-->VA in chrome,opera,edges
+                ---> spiderman in firefox
+               --->chakra for IE
+              ---->javascriptcore,nitro,squirrel in safari
+______________________________________________________________________________________________________________________________________
+
+ inline javascript:
+----------------------
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> scriptpage</title>
+    <head>
+        <body>
+            <p>this is the html page which contais the javascript</p>
+
+            <!-- inline javascript -->
+            <button onclick="alert('buttom has been clicked')">click here </button>
+        </body>
+<html>
+
+_________________________________________________________________________________________________________________________________________________
+
+internal javascript(within the <script> tag):
+-----------------------------------------------------
+
+
+!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Add JavaScript Code inside Head Section
+    </title>
+
+    <script>
+        function Func() {
+            document.getElementById("samp").innerHTML = "Content changed";
+        }
+    </script>
+</head>
+
+<body>
+    <h2>
+        JavaScript Code internal script
+    </h2>
+
+    <h3 id="samp" style="color:rgb(128, 62, 208);">
+        GeeksforGeeks
+    </h3>
+
+    <button type="button" onclick="Func()">
+        Click Here
+    </button>
+</body>
+
+</html>
+____________________________________________________________________________________________________________________________________
+
+External javascript:(.js)
+-----------------------
+-->Asynchronous
+--->Deferred
+
